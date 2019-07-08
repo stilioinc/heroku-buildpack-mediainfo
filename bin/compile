@@ -10,7 +10,7 @@ MEDIAINFO_VERSION="19.04"
 mkdir -p "${BUILD_DIR}/vendor"
 rm -rf "${BUILD_DIR}/vendor/mediainfo"
 cp mediainfo "${BUILD_DIR}/vendor/mediainfo"
-chmod +x "${BUILD_DIR}/vendor/mediainfo/mediainfo"
+chmod +x "${BUILD_DIR}/vendor/mediainfo"
 
 PROFILE_PATH="$BUILD_DIR/.profile.d/mediainfo.sh"
 mkdir -p $(dirname $PROFILE_PATH)
